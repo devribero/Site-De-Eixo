@@ -11,16 +11,41 @@
  <![endif]-->
 </head>
 
-<body>
-<form name="meu_form">
+<body background-color: #191970>
+<nav>
+<ul class="menu">
+  <li><a href="#" <button onclick="window.location.href = 'index.html'"</button>Home</a></li>
+    <li><a href="#">Imagens</a></li>
+          <li><a href="#">Trabalhos</a>
+        <ul>
+                  <li><a href="#">Desenhos</a></li>
+                  <li><a href="#">Videos</a></li>
+                  <li><a href="#">Historias HQ</a></li>
+               </ul>
+    <li><a href="#" <button onclick="window.location.href = 'livros.html'"</button>Livros</a></li>
+    <li><a href="#" <button onclick="window.location.href = 'faleconosco.html'"</button>Fale Conosco</a></li>
+</ul>
+</nav>
+<h2 class="h2">NOS CONTATE</h2>
+<p class="p">Se voce ja sofreu algum tipo de preconceito nos diga!!.</p>
 
-  <h1>Preconceito</h1>
-  
-  <p>Ideia de conceitizaçao de pessoas que ja sofreram preconceito</p>
-
-  <textarea placeholder="Deixe aqui se voce ja sofreu"></textarea>
-
-  <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
-</form>
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Voce Ja Sofreu Algum Tipo De Preconceito Nos Diga</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
 </body>
 </html>
