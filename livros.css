@@ -10,6 +10,7 @@ background-color: #bdbdbd;
 list-style:none;
 border:1px solid #585858;
 float: right;
+border: 0.5%;
 }
 
 .menu li{
@@ -51,7 +52,6 @@ margin: 0.5%;
 .menu{
 border-radius: 30px;
 background-color: #dcdcdc;
-margin: 0.5%;
 }
 
 .menu li ul li{
@@ -64,3 +64,11 @@ border-right: 1px solid #0B173B: 12 21/10/2021;
 background-color: #000080;
 }
 
+.h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    width: 150pc;
+    display: block;
+    float: center;
+}
