@@ -4,8 +4,6 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="HandheldFriendly" content="true" />
-  <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
     <title>Conscientizando</title>
      <!-- Aqui chamamos o nosso arquivo css externo -->
     <link rel="stylesheet" type="text/css"  href="css/style2.css" />
@@ -33,7 +31,9 @@
 <p class="p">Voce já passou por alguma situação que envolvia preconceito ou discriminação? Como foi?</p>
 
 <div class="container">
-  <form action="envia_fale.php" method="post" name="form">
+  <form action="https://api.staticforms.xyz/submit" method="POST">
+  <input type="hidden" name="accessKey" value="1ff318fa-d2d6-4c98-bb56-75c56eb75890">
+  <input type="hidden" name="redirectTo" value="https://conscientizando.netlify.app/faleconosco.html">
   <div class="row">
     <div class="col-25">
   <div class="row">
@@ -41,13 +41,12 @@
       <label for="subject">Voce já passou por alguma situação que envolvia preconceito ou discriminação? Como foi?</label>
     </div>
     <div class="col-75">
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
     </div>
   </div>
   <br>
   <div class="row">
-    Submit:
-    <input type="submit" name="submit" value="submit"><br>
+    <input type="submit" value="Submit">
   </div>
   </form>
 </div>
