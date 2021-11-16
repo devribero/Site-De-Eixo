@@ -2,9 +2,9 @@
 
 # alterar a variavel abaixo colocando o seu email
 
-$destinatario = "8anoceixo@gmail.";
+$destinatario = "8anoceixo@gmail.com";
 
-$submit = $_REQUEST['Submit'];
+$submit = $_REQUEST['submit'];
 
  // monta o e-mail na variavel $body
 
