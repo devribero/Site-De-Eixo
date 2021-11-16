@@ -11,13 +11,11 @@ $submit = $_REQUEST['submit'];
 $body = "===================================" . "\n";
 $body = $body . "FALE CONOSCO - TESTE COMPROVATIVO" . "\n";
 $body = $body . "===================================" . "\n\n";
-$body = $body . "Nome: " . $nome . "\n";
-$body = $body . "Email: " . $email . "\n";
-$body = $body . "Mensagem: " . $mensagem . "\n\n";
+$body = $body . "Submit: " . $submit . "\n";
 $body = $body . "===================================" . "\n";
 
 // envia o email
-mail($destinatario, $assunto , $body, "From: $email\r\n");
+mail($destinatario, $submit , $body, "From: $email\r\n");
 
 // redireciona para a página de obrigado
 header("location:obrigado.htm");
