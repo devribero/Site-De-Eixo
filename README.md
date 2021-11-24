@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="HandheldFriendly" content="true" />
   <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
+  <link rel="stylesheet" type="text/css"  href="css/style.css" />
     <title>Conscientizando</title>
-    <link rel="stylesheet" type="text/css"  href="css/style.css" />
-<style>
+	<style>
 *{margin: 0; padding: 0;}
 
 body{
